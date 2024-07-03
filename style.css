@@ -30,11 +30,13 @@ body {
     padding: 3rem;
 }
 .h-70{
-    height: 70vh;
+    min-height: 70vh;
 }
 .mt-2{
     margin-top: 2rem;
 }
+
+.
 
 .text-center{
 text-align: center;
