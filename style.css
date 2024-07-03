@@ -63,8 +63,7 @@ header{
 
 
 .container {
-    
-    padding: 5%;
+    padding: 5% !important;
 }
 
 h1, h2 {
@@ -100,7 +99,7 @@ h1, h2 {
 
 
 
-/* Profile */
+
 
 
 
@@ -121,7 +120,7 @@ li{
 
 .links {
     gap: 20px;
-    margin-top: -50px;
+    margin-top: -20px;
     padding-bottom: 30px;
 }
 
@@ -131,6 +130,12 @@ a{
 
 .links a:hover {
     text-decoration: underline;
+}
+
+.goals{
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: -50px;
 }
 
 /* Responsive Styles */
