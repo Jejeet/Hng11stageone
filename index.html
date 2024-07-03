@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header flex flex-row justify-between">
+      <div class="site-title">Adewumi Owonikoko</div>
+      <div class="current-info flex flex-row gap-1">
+        <span data-testid="currentDay" id="currentDay"></span>
+        <span data-testid="currentTimeUTC" id="currentTimeUTC"></span>
+      </div>
+    </header>
+
+    <div class="container h-70 align-center flex lg-flex">
+      <div class="container profileDescription">
+        <h1 class="profile-title heading-1">Hello, I'm<br /><span data-testid="slackDisplayName">Adewumi Owonikoko</span></h1>
+        <h4 class="" data-testid="slackTrack">Frontend Developer | <span data-testid="slackEmail">owonikokoadewumi01@gmail.com</span></h4>
+        <p>
+          I'm a kinikan kinkan that is doing kinikan under the kinikan, in other
+          to now kinikan.
+        </p>
+        <div class="mt-2">
+          <a href="#goals" class="btn">My Goals</a>
+        </div>
+        
+      </div>
+      <div class="container ">
+        <img class="img"
+            src="https://ca.slack-edge.com/T07466B189M-U07AHPPV0JD-0aa0035fe5e0-512"
+            alt="Slack Profile Picture"
+            data-testid="slackProfilePicture"
+          />
+      </div>
+    </div>
+
+    <div id="goals" class="container">
+      <div class="container goals">
+        <h2 class="heading-2 text-center">Goals</h2>
+        <div class="flex justify-between lg-flex">
+          <div class="container">
+            <ul>
+              <li>Become proficient in full-stack development.</li>
+              <li>Contribute to open-source projects regularly.</li>
+              <li>Build and launch a tech startup.</li>
+              <li>Enhance skills in JavaScript and learn TypeScript.</li>
+            </ul>
+          </div>
+          <div class="container">
+            <ul>
+              <li>Enhance skills in JavaScript and learn TypeScript.</li>
+              <li>Become proficient in a modern frontend framework</li>
+              <li>Improve communication and problem-solving skills.</li>
+              <li>Consider obtaining relevant certifications.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class=" links flex flex-row justify-center">
+      <!-- <h2>Useful Links</h2> -->
+      <a href="https://hng.tech/learn" data-testid="hngLink" target="_blank"
+        >HNG Learn</a
+      >
+
+      |
+
+      <a href="https://keyword.dog" data-testid="keywordLink" target="_blank"
+        >Keyword Dog</a
+      >
+
+      |
+
+      <a
+        href="https://scrapeanyweb.site"
+        data-testid="scrapeanywebLink"
+        target="_blank"
+        >Scrape Any Web</a
+      >
+    </div>
+    <script src="./Script.js"></script>
+  </body>
+</html>
