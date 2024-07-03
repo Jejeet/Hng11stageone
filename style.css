@@ -36,6 +36,10 @@ body {
     margin-top: 2rem;
 }
 
+.mb-2{
+    margin-bottom: 20px;
+}
+
 
 
 .text-center{
@@ -59,7 +63,7 @@ header{
 
 
 .container {
-    margin-bottom: 20px;
+    
     padding: 5%;
 }
 
